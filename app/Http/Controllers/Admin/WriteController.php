@@ -16,6 +16,7 @@ class WriteController extends Controller
      */
     public function index()
     {
+        echo 123;die;
         //展示视图
         $writename=request()->write_name;
         $where=[];
